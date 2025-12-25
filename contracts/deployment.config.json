@@ -1,0 +1,74 @@
+{
+  "project": "Moigye",
+  "version": "1.0.0",
+
+  "contracts": {
+    "GyeFactory": {
+      "source": "src/GyeFactory.sol:GyeFactory",
+      "type": "Factory",
+      "description": "Factory contract to deploy and track 계 circles"
+    },
+    "GyeCircle": {
+      "source": "src/GyeCircle.sol:GyeCircle",
+      "type": "ROSCA",
+      "description": "Individual 계 circle instance (deployed by factory)"
+    }
+  },
+
+  "chains": {
+    "amoy": {
+      "chainId": 80002,
+      "name": "Polygon Amoy",
+      "rpcUrl": "https://rpc-amoy.polygon.technology",
+      "explorer": {
+        "name": "OKLink",
+        "url": "https://www.oklink.com/amoy",
+        "apiUrl": "https://www.oklink.com/api/v5/explorer/contract/verify-source-code-plugin/AMOY_TESTNET",
+        "verifier": "oklink"
+      },
+      "nativeCurrency": {
+        "name": "MATIC",
+        "symbol": "MATIC",
+        "decimals": 18
+      },
+      "subgraph": {
+        "thegraphNetwork": "polygon-amoy",
+        "goldskyNetwork": "polygon-amoy"
+      }
+    }
+  },
+
+  "steps": [
+    {
+      "id": 1,
+      "type": "deploy",
+      "chain": "amoy",
+      "contract": "GyeFactory",
+      "constructorArgs": [],
+      "verify": true
+    }
+  ],
+
+  "deployments": {
+    "amoy": {
+      "GyeFactory": {
+        "address": "0x3b1877153578fdfB6a9332cb2B1DaDA6c0c1e532",
+        "deploymentTx": "0xf45360f76bc2cb914c70adb2eeeb9a16a9891d8db1050626c9008c1d4fd111f6",
+        "blockNumber": 31420146,
+        "verified": false
+      }
+    }
+  },
+
+  "sync": {
+    "frontend": {
+      "tokensPath": "../frontend/constants/tokens",
+      "contractsPath": "../frontend/constants/contracts",
+      "abiSource": "out"
+    },
+    "subgraphs": {
+      "configPath": "../subgraphs/deployment.config.json",
+      "abiPath": "../subgraphs"
+    }
+  }
+}
