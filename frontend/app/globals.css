@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Moigye warm light theme */
+    --background: 40 30% 96%; /* Warm cream #F7F4F0 */
+    --foreground: 30 15% 15%; /* Dark brown text */
+    --card: 40 25% 98%;
+    --card-foreground: 30 15% 15%;
+    --popover: 40 25% 98%;
+    --popover-foreground: 30 15% 15%;
+    --primary: 30 50% 45%; /* Deeper gold for light mode */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 35 40% 55%; /* Warm amber secondary */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 40 20% 90%;
+    --muted-foreground: 30 10% 45%;
+    --accent: 30 40% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 15% 85%;
+    --input: 30 15% 85%;
+    --ring: 30 50% 45%;
+    --radius: 0.75rem;
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+
+    /* Moigye brand colors - light mode */
+    --gold: 30 50% 45%;
+    --gold-foreground: 0 0% 100%;
+    --amber: 35 40% 55%;
+    --amber-foreground: 0 0% 100%;
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+  }
+
+  .dark {
+    /* Moigye warm dark theme */
+    --background: 36 11% 9%; /* #1A1815 warm dark */
+    --foreground: 38 25% 90%;
+    --card: 30 10% 12%;
+    --card-foreground: 38 25% 90%;
+    --popover: 30 10% 12%;
+    --popover-foreground: 38 25% 90%;
+    --primary: 30 45% 64%; /* #D4A574 gold */
+    --primary-foreground: 36 11% 9%;
+    --secondary: 35 35% 50%; /* Warm amber secondary */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 30 8% 18%;
+    --muted-foreground: 30 10% 55%;
+    --accent: 30 35% 55%;
+    --accent-foreground: 36 11% 9%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 8% 20%;
+    --input: 30 8% 20%;
+    --ring: 30 45% 64%;
+
+    /* Moigye brand colors - dark mode */
+    --gold: 30 45% 64%;
+    --gold-foreground: 36 11% 9%;
+    --amber: 35 35% 50%;
+    --amber-foreground: 0 0% 100%;
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Noto Sans KR', Arial, Helvetica, sans-serif;
+  }
+}
