@@ -1,0 +1,479 @@
+{
+  "common": {
+    "loading": "로딩 중...",
+    "cancel": "취소",
+    "confirm": "확인",
+    "save": "저장",
+    "delete": "삭제",
+    "close": "닫기",
+    "appName": "모이계",
+    "chains": "개",
+    "connectWallet": "지갑을 연결하여 시작하세요",
+    "next": "다음",
+    "back": "이전",
+    "error": "데이터를 불러오는 중 오류가 발생했습니다.",
+    "people": "명",
+    "rounds": "회",
+    "total": "합계",
+    "viewTx": "트랜잭션 보기",
+    "viewCircle": "모임 보기",
+    "copyLink": "링크 복사",
+    "copied": "복사됨!",
+    "inviteLinkCopied": "계 참여 초대 링크가 클립보드에 복사되었습니다",
+    "copy": "복사",
+    "shareInvite": "이 링크를 공유하여 멤버를 초대하세요",
+    "reset": "초기화",
+    "processing": "처리 중...",
+    "creator": "계주",
+    "contribution": "기여금",
+    "frequency": "주기",
+    "members": "참여자",
+    "payoutMethod": "지급방식",
+    "stake": "보증금",
+    "penalty": "패널티",
+    "firstContribution": "첫 기여금",
+    "totalPayment": "총 결제",
+    "insufficientBalance": "잔액이 부족합니다. 현재 잔액: {balance} {symbol}",
+    "joinCircle": "참여하기 ({amount} {symbol})",
+    "mustAcceptTerms": "약관에 동의해야 참여할 수 있습니다",
+    "connectWalletToJoin": "계에 참여하려면 지갑을 연결해주세요",
+    "viewTransaction": "트랜잭션 확인하기",
+    "goToDashboard": "대시보드로 이동",
+    "daily": "매일",
+    "weekly": "매주",
+    "biweekly": "격주",
+    "monthly": "매월",
+    "inOrder": "순서대로",
+    "lottery": "추첨",
+    "bidding": "입찰",
+    "inProgress": "진행중",
+    "pay": "납부"
+  },
+  "wallet": {
+    "connect": "지갑 연결",
+    "connecting": "연결 중...",
+    "disconnect": "연결 해제",
+    "disconnecting": "연결 해제 중...",
+    "initializing": "초기화 중...",
+    "copyAddress": "주소 복사",
+    "copied": "복사됨!",
+    "viewOnExplorer": "탐색기에서 보기",
+    "switchNetwork": "네트워크 전환",
+    "selectNetwork": "전환할 네트워크를 선택하세요",
+    "minting": "발행 중...",
+    "switching": "전환 중...",
+    "noNetworks": "네트워크가 설정되지 않았습니다"
+  },
+  "nav": {
+    "myCircles": "내 모임",
+    "explore": "모임 찾기",
+    "leaderboard": "순위표",
+    "profile": "내 프로필",
+    "history": "납부 내역"
+  },
+  "navbar": {
+    "settings": "설정",
+    "appConfiguration": "앱 설정",
+    "status": "상태",
+    "configured": "설정 완료",
+    "needsSetup": "설정 필요",
+    "networks": "네트워크",
+    "missingConfiguration": "누락된 설정:",
+    "openSettings": "설정 열기"
+  },
+  "hero": {
+    "badge": "신뢰할 수 있는 디지털 계모임",
+    "title": "모이계",
+    "titleHighlight": "(모이계)",
+    "tagline": "할머니의 지혜, 블록체인의 신뢰",
+    "description": "전통 계모임의 지혜를 스마트 컨트랙트로 구현한 투명하고 안전한 디지털 계모임 플랫폼",
+    "createCircle": "새 계 만들기",
+    "findCircles": "모임 찾기"
+  },
+  "features": {
+    "title": "왜 모이계인가요?",
+    "subtitle": "블록체인 기술로 전통 계모임의 신뢰 문제를 해결합니다",
+    "smartContract": {
+      "title": "스마트 컨트랙트",
+      "description": "자동화된 기여금 관리로 신뢰할 수 있는 투명한 운영"
+    },
+    "identity": {
+      "title": "신원 확인",
+      "description": "KYC 인증된 참여자만 참여하여 안전한 모임 구성"
+    },
+    "transparency": {
+      "title": "투명한 관리",
+      "description": "모든 거래가 온체인에 기록되어 언제든 확인 가능"
+    },
+    "autoPayout": {
+      "title": "자동 분배",
+      "description": "당첨자에게 즉시 자동 지급으로 편리한 운영"
+    }
+  },
+  "howItWorks": {
+    "title": "어떻게 참여하나요?",
+    "subtitle": "간단한 4단계로 디지털 계모임에 참여하세요",
+    "step1": {
+      "title": "계 만들기",
+      "description": "규칙을 설정하고 멤버를 초대하세요"
+    },
+    "step2": {
+      "title": "참여하기",
+      "description": "보증금과 첫 기여금을 납부하세요"
+    },
+    "step3": {
+      "title": "기여하기",
+      "description": "매 회차 기여금을 납부하세요"
+    },
+    "step4": {
+      "title": "수령하기",
+      "description": "순서가 오면 자동으로 수령하세요"
+    }
+  },
+  "cta": {
+    "title": "먹튀 걱정 없는 스마트 계모임",
+    "description": "스마트 컨트랙트가 모든 자금을 안전하게 관리합니다. 더 이상 신뢰 문제로 고민하지 마세요.",
+    "getStarted": "시작하기"
+  },
+  "create": {
+    "title": "새 계 만들기",
+    "steps": {
+      "basicInfo": "기본 정보",
+      "configuration": "설정",
+      "rules": "규칙",
+      "review": "확인"
+    },
+    "basicInfo": {
+      "title": "기본 정보",
+      "circleName": "계 이름 *",
+      "circleNamePlaceholder": "예: 친목 계, 동창 계",
+      "nameMinLength": "이름은 2자 이상이어야 합니다",
+      "description": "설명 (선택)",
+      "descriptionPlaceholder": "계에 대한 설명을 입력하세요"
+    },
+    "configuration": {
+      "title": "설정",
+      "contribution": "기여금",
+      "frequency": "납부 주기",
+      "weekly": "주간 (7일)",
+      "monthly": "월간 (30일)",
+      "members": "인원",
+      "roundsInfo": "회차는 인원 수와 동일합니다",
+      "round": "회차"
+    },
+    "rules": {
+      "title": "규칙",
+      "stake": "보증금",
+      "stakeRecommendation": "권장: 기여금의 2배",
+      "penalty": "연체료",
+      "payoutMethod": "지급 방식",
+      "auction": "경매",
+      "auctionDesc": "높은 입찰자가 지급받음",
+      "random": "추첨",
+      "randomDesc": "무작위 추첨",
+      "fixed": "순번",
+      "fixedDesc": "가입 순서대로"
+    },
+    "review": {
+      "title": "확인",
+      "circleName": "계 이름",
+      "description": "설명",
+      "contribution": "기여금",
+      "frequency": "납부 주기",
+      "members": "인원",
+      "rounds": "회차",
+      "stake": "보증금",
+      "penalty": "연체료",
+      "payoutMethod": "지급 방식",
+      "schedule": "예상 일정",
+      "poolPerRound": "이 모입니다.",
+      "totalRounds": "총 {count}회차 진행 후 종료됩니다.",
+      "terms": "계 규칙에 동의합니다. 보증금은 계 종료 후 반환됩니다.",
+      "creating": "생성 중...",
+      "createCircle": "계 만들기"
+    },
+    "success": {
+      "title": "계 생성 완료!",
+      "circleName": "계 이름",
+      "circleId": "계 ID",
+      "contractAddress": "컨트랙트 주소",
+      "inviteLink": "초대 링크"
+    }
+  },
+  "circles": {
+    "title": "내 계 현황",
+    "subtitle": "나의 모임과 계를 관리하세요",
+    "connectWallet": "지갑을 연결해주세요",
+    "connectWalletDesc": "내 모임과 계를 확인하려면 지갑을 연결해주세요.",
+    "empty": {
+      "title": "참여 중인 계가 없습니다",
+      "description": "새로운 계를 만들거나 기존 모임에 참여하여 함께 저축을 시작해보세요.",
+      "createCircle": "새 계 만들기",
+      "exploreCircles": "모임 찾기"
+    },
+    "stats": {
+      "participating": "참여 계",
+      "circles": "개",
+      "active": "개 진행중",
+      "totalContributed": "총 기여금",
+      "payoutsReceived": "수령 완료",
+      "times": "회",
+      "activeCircles": "활성 계"
+    },
+    "upcomingPayments": {
+      "title": "다가오는 납부",
+      "noPayments": "예정된 납부가 없습니다"
+    },
+    "myCirclesList": "나의 계 목록"
+  },
+  "explore": {
+    "title": "모임 찾기",
+    "subtitle": "새로운 계에 참여하거나 직접 만들어보세요",
+    "createCircle": "새 계 만들기",
+    "totalCircles": "총 {count}개의 계",
+    "noResults": {
+      "title": "검색 결과가 없습니다",
+      "description": "조건에 맞는 계를 찾지 못했습니다. 필터를 조정하거나 새로운 계를 만들어보세요.",
+      "resetFilters": "필터 초기화",
+      "createNew": "새 계 만들기"
+    },
+    "filters": {
+      "allStatus": "모든 상태",
+      "allFrequency": "모든 주기",
+      "forming": "모집중",
+      "active": "진행중",
+      "weekly": "주간",
+      "monthly": "월간",
+      "sortNewest": "정렬: 최신순",
+      "sortPopular": "정렬: 인기순"
+    },
+    "placeholders": {
+      "status": "상태",
+      "frequency": "주기",
+      "sort": "정렬"
+    }
+  },
+  "join": {
+    "title": "계 참여하기",
+    "error": "오류가 발생했습니다",
+    "errorLoadingCircle": "계 정보를 불러오는데 실패했습니다.",
+    "notFound": "계를 찾을 수 없습니다",
+    "notFoundDesc": "요청하신 계가 존재하지 않거나 삭제되었습니다.",
+    "alreadyMember": "이미 참여중인 계입니다",
+    "alreadyMemberDesc": "이미 이 계의 회원입니다.",
+    "viewCircle": "계 보기",
+    "fullCircle": "모집이 마감되었습니다",
+    "fullCircleDesc": "이 계는 이미 모든 자리가 채워졌습니다.",
+    "browseOther": "다른 계 둘러보기",
+    "terms": {
+      "title": "참여 약관",
+      "stake": "보증금",
+      "stakeDesc": "{amount} {symbol}을 보증금으로 예치합니다. 계가 정상 종료되면 전액 환불됩니다.",
+      "penalty": "패널티",
+      "penaltyDesc": "기여금을 기한 내에 납부하지 않으면 보증금에서 {rate}%가 차감됩니다.",
+      "schedule": "납부 일정",
+      "scheduleDesc": "{frequency} 기여금을 납부해야 합니다. 정해진 기한을 지켜주세요.",
+      "agree": "위 약관을 모두 읽었으며 이에 동의합니다"
+    },
+    "action": {
+      "connectWallet": "지갑 연결",
+      "acceptTerms": "먼저 약관에 동의해주세요",
+      "joining": "참여 중...",
+      "joinCircle": "계 참여하기",
+      "totalRequired": "필요 금액: {amount} {symbol}"
+    },
+    "success": {
+      "title": "참여 완료!",
+      "welcome": "{name}에 성공적으로 참여했습니다",
+      "viewCircle": "모임 보기",
+      "viewTransaction": "트랜잭션 확인하기",
+      "goToDashboard": "대시보드로 이동"
+    },
+    "members": {
+      "title": "참여자",
+      "participating": "{count}명 참여 중",
+      "empty": "아직 참여자가 없습니다. 첫 번째로 참여해보세요!",
+      "more": "더 있음"
+    }
+  },
+  "circleDetail": {
+    "round": "회차 {current}/{total}",
+    "nextPayment": "다음 납부일",
+    "daysLeft": "{days}일 남음",
+    "members": "참여자",
+    "paymentHistory": "납부 내역",
+    "noPayments": "아직 납부 내역이 없습니다",
+    "contribute": "기여금 납부",
+    "contributing": "납부 중...",
+    "yourTurn": "수령 차례입니다!",
+    "waiting": "수령 대기 중",
+    "tabs": {
+      "overview": "개요",
+      "members": "참여자",
+      "schedule": "일정",
+      "history": "내역"
+    },
+    "header": {
+      "host": "주최:",
+      "participants": "참여자",
+      "contribution": "납입금",
+      "frequency": "주기",
+      "stake": "보증금",
+      "startCircle": "계 시작",
+      "waitingForCreator": "계주 대기 중"
+    },
+    "overview": {
+      "currentRound": "{round}회차 진행 중",
+      "contributionProgress": "납부 현황",
+      "peopleComplete": "{count}/{total}명 완료",
+      "deadline": "마감:",
+      "expectedPayout": "수령 예정액:",
+      "payContribution": "{amount} VERY 납부하기",
+      "roundPaymentComplete": "이번 회차 납부 완료",
+      "currentRoundRecipient": "이번 회차 수령자"
+    },
+    "membersTab": {
+      "participantStatus": "참여자 현황",
+      "paid": "납부완료",
+      "pending": "납부 대기",
+      "overdue": "연체",
+      "payoutComplete": "수령 완료",
+      "noParticipants": "아직 참여자가 없습니다"
+    },
+    "historyTab": {
+      "transactionHistory": "거래 내역",
+      "contribution": "납부",
+      "payout": "수령",
+      "penalty": "패널티",
+      "view": "보기",
+      "noTransactions": "아직 거래 내역이 없습니다"
+    },
+    "auction": {
+      "title": "입찰 경매",
+      "timeRemaining": "남은 시간",
+      "ended": "종료됨",
+      "calculating": "계산 중...",
+      "notStarted": "아직 시작 전",
+      "bidAmount": "입찰 금액 (%)",
+      "bid": "입찰",
+      "bidHint": "수령액에서 차감될 비율을 입력하세요. 높은 입찰이 우선권을 가집니다.",
+      "completePaymentFirst": "입찰 참여를 위해 먼저 납부를 완료해 주세요",
+      "joinCircleFirst": "입찰 참여를 위해 먼저 계에 가입해 주세요",
+      "currentBids": "현재 입찰 현황",
+      "noBids": "입찰 내역이 없습니다",
+      "daysHours": "{days}일 {hours}시간",
+      "hoursMinutes": "{hours}시간 {minutes}분",
+      "minutesSeconds": "{minutes}분 {seconds}초",
+      "placingBid": "입찰 중...",
+      "bidPlaced": "입찰 완료!",
+      "bidSuccess": "{amount}% 입찰이 성공적으로 등록되었습니다",
+      "bidFailed": "입찰 실패"
+    },
+    "schedule": {
+      "title": "수령 일정",
+      "round": "{round}회차",
+      "complete": "(완료)",
+      "inProgress": "(진행중)",
+      "upcoming": "(예정)",
+      "deadlineDate": "{date} 마감",
+      "recipient": "수령자: ",
+      "undecided": "미정",
+      "futureRounds": "{count}개 회차 예정"
+    },
+    "modal": {
+      "contribute": "납부하기",
+      "roundContribution": "{round}회차 납입금을 납부합니다",
+      "contributionAmount": "납입 금액",
+      "warningNoRefund": "납부 후에는 취소할 수 없습니다. 계속하기 전에 금액을 확인해 주세요.",
+      "processing": "트랜잭션 처리 중...",
+      "pleaseWait": "잠시만 기다려 주세요",
+      "success": "납부 완료!",
+      "successMessage": "{amount} VERY가 성공적으로 납부되었습니다",
+      "viewTransaction": "트랜잭션 확인하기 →",
+      "failed": "납부 실패",
+      "payVery": "{amount} VERY 납부"
+    },
+    "notFound": {
+      "title": "계를 찾을 수 없습니다",
+      "description": "요청하신 계가 존재하지 않거나 삭제되었을 수 있습니다.",
+      "backToCircles": "계 목록으로 돌아가기"
+    }
+  },
+  "status": {
+    "circle": {
+      "forming": "모집중",
+      "active": "진행중",
+      "completed": "완료"
+    },
+    "contribution": {
+      "paid": "납부완료",
+      "unpaid": "미납부",
+      "overdue": "연체"
+    }
+  },
+  "leaderboard": {
+    "title": "순위표",
+    "subtitle": "모이계 커뮤니티 최고 기여자",
+    "tabs": {
+      "circles": "계 순위",
+      "members": "회원 순위"
+    },
+    "circles": {
+      "title": "기여금 상위 계",
+      "subtitle": "총 기여금 기준 계 순위",
+      "rank": "순위",
+      "name": "계 이름",
+      "totalContributed": "총 기여금",
+      "members": "참여자",
+      "progress": "진행률",
+      "empty": "계가 없습니다"
+    },
+    "members": {
+      "title": "기여금 상위 회원",
+      "subtitle": "총 투자금 기준 회원 순위",
+      "rank": "순위",
+      "address": "회원",
+      "totalContributed": "총 기여금",
+      "contributions": "납부 횟수",
+      "circle": "소속 계",
+      "empty": "회원이 없습니다"
+    }
+  },
+  "demo": {
+    "create": {
+      "name": "서울 IT 저축 모임",
+      "description": "서울 IT 전문가들을 위한 신뢰할 수 있는 저축 모임입니다. 매월 기여금을 납부하고 공정한 경매 시스템을 통해 순번대로 모인 자금을 수령합니다."
+    },
+    "subgraph": {
+      "name": "모이계 서브그래프",
+      "description": "모이계의 모든 이벤트(생성, 기여금, 지급)를 인덱싱합니다"
+    }
+  },
+  "errors": {
+    "userRejected": "사용자가 거래를 취소했습니다",
+    "insufficientFunds": "잔액이 부족합니다",
+    "gasExceeded": "가스 한도를 초과했습니다",
+    "alreadyMember": "이미 참여한 계입니다",
+    "notMember": "계 멤버가 아닙니다",
+    "insufficientStake": "담보금이 부족합니다",
+    "insufficientContribution": "부금이 부족합니다",
+    "circleNotForming": "계가 모집 중이 아닙니다",
+    "circleNotActive": "계가 진행 중이 아닙니다",
+    "maxMembersReached": "최대 인원에 도달했습니다",
+    "alreadyContributed": "이미 이번 회차에 부금을 납부했습니다",
+    "roundDeadlinePassed": "납부 기한이 지났습니다",
+    "roundNotEnded": "회차가 아직 종료되지 않았습니다",
+    "alreadyReceivedPayout": "이미 타금을 수령했습니다",
+    "notEligibleForPayout": "타금 수령 자격이 없습니다",
+    "bidTooLow": "입찰 금액이 너무 낮습니다",
+    "invalidConfig": "잘못된 설정입니다",
+    "networkError": "네트워크 연결에 문제가 있습니다",
+    "timeout": "거래 시간이 초과되었습니다",
+    "walletNotConnected": "지갑이 연결되어 있지 않습니다",
+    "contractNotLoaded": "컨트랙트를 불러올 수 없습니다",
+    "abiNotLoaded": "ABI를 불러올 수 없습니다",
+    "clientNotReady": "네트워크 클라이언트가 준비되지 않았습니다. 잠시 후 다시 시도해주세요.",
+    "transactionFailed": "트랜잭션이 실패했습니다. 다시 시도해주세요.",
+    "default": "거래 처리 중 오류가 발생했습니다"
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "close": "Close",
+    "appName": "Moigye",
+    "chains": "chains",
+    "connectWallet": "Connect your wallet to get started",
+    "next": "Next",
+    "back": "Back",
+    "error": "An error occurred while loading data.",
+    "people": " people",
+    "rounds": " rounds",
+    "total": "Total",
+    "viewTx": "View Transaction",
+    "viewCircle": "View Circle",
+    "copyLink": "Copy Link",
+    "copied": "Copied!",
+    "inviteLinkCopied": "Invite link to join the circle has been copied to clipboard",
+    "copy": "Copy",
+    "shareInvite": "Share this link to invite members",
+    "reset": "Reset",
+    "processing": "Processing...",
+    "creator": "Creator",
+    "contribution": "Contribution",
+    "frequency": "Frequency",
+    "members": "Members",
+    "payoutMethod": "Payout Method",
+    "stake": "Stake",
+    "penalty": "Penalty",
+    "firstContribution": "First Contribution",
+    "totalPayment": "Total Payment",
+    "insufficientBalance": "Insufficient balance. Current balance: {balance} {symbol}",
+    "joinCircle": "Join ({amount} {symbol})",
+    "mustAcceptTerms": "You must accept the terms to join",
+    "connectWalletToJoin": "Connect your wallet to join",
+    "viewTransaction": "View Transaction",
+    "goToDashboard": "Go to Dashboard",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "biweekly": "Biweekly",
+    "monthly": "Monthly",
+    "inOrder": "In Order",
+    "lottery": "Lottery",
+    "bidding": "Bidding",
+    "inProgress": "in progress",
+    "pay": "Pay"
+  },
+  "wallet": {
+    "connect": "Connect Wallet",
+    "connecting": "Connecting...",
+    "disconnect": "Disconnect",
+    "disconnecting": "Disconnecting...",
+    "initializing": "Initializing...",
+    "copyAddress": "Copy Address",
+    "copied": "Copied!",
+    "viewOnExplorer": "View on Explorer",
+    "switchNetwork": "Switch Network",
+    "selectNetwork": "Select the network you want to switch to",
+    "minting": "Minting...",
+    "switching": "Switching...",
+    "noNetworks": "No networks configured"
+  },
+  "nav": {
+    "myCircles": "My Circles",
+    "explore": "Find Circles",
+    "leaderboard": "Leaderboard",
+    "profile": "My Profile",
+    "history": "Payment History"
+  },
+  "navbar": {
+    "settings": "Settings",
+    "appConfiguration": "App Configuration",
+    "status": "Status",
+    "configured": "Configured",
+    "needsSetup": "Needs Setup",
+    "networks": "Networks",
+    "missingConfiguration": "Missing Configuration:",
+    "openSettings": "Open Settings"
+  },
+  "hero": {
+    "badge": "Trusted Digital Gye (ROSCA)",
+    "title": "Moigye",
+    "titleHighlight": "(Moigye)",
+    "tagline": "Grandmother's wisdom, blockchain's trust",
+    "description": "A transparent and secure digital ROSCA platform that implements the wisdom of traditional Gye with smart contracts",
+    "createCircle": "Create a Gye",
+    "findCircles": "Find Circles"
+  },
+  "features": {
+    "title": "Why Moigye?",
+    "subtitle": "Solving traditional ROSCA trust issues with blockchain technology",
+    "smartContract": {
+      "title": "Smart Contracts",
+      "description": "Transparent operations with automated contribution management"
+    },
+    "identity": {
+      "title": "Identity Verification",
+      "description": "Safe circle composition with only KYC-verified participants"
+    },
+    "transparency": {
+      "title": "Transparent Management",
+      "description": "All transactions recorded on-chain, verifiable anytime"
+    },
+    "autoPayout": {
+      "title": "Automatic Distribution",
+      "description": "Convenient operation with instant automatic payout to winners"
+    }
+  },
+  "howItWorks": {
+    "title": "How to Participate?",
+    "subtitle": "Join a digital ROSCA in 4 simple steps",
+    "step1": {
+      "title": "Create Circle",
+      "description": "Set rules and invite members"
+    },
+    "step2": {
+      "title": "Join",
+      "description": "Pay deposit and first contribution"
+    },
+    "step3": {
+      "title": "Contribute",
+      "description": "Pay contribution each round"
+    },
+    "step4": {
+      "title": "Receive",
+      "description": "Automatically receive when it's your turn"
+    }
+  },
+  "cta": {
+    "title": "Smart ROSCA with no fraud worries",
+    "description": "Smart contracts safely manage all funds. No more worrying about trust issues.",
+    "getStarted": "Get Started"
+  },
+  "create": {
+    "title": "Create New Circle",
+    "steps": {
+      "basicInfo": "Basic Info",
+      "configuration": "Settings",
+      "rules": "Rules",
+      "review": "Review"
+    },
+    "basicInfo": {
+      "title": "Basic Information",
+      "circleName": "Circle Name *",
+      "circleNamePlaceholder": "e.g., Friends Circle, Alumni Circle",
+      "nameMinLength": "Name must be at least 2 characters",
+      "description": "Description (optional)",
+      "descriptionPlaceholder": "Enter a description for your circle"
+    },
+    "configuration": {
+      "title": "Configuration",
+      "contribution": "Contribution",
+      "frequency": "Payment Frequency",
+      "weekly": "Weekly (7 days)",
+      "monthly": "Monthly (30 days)",
+      "members": "Members",
+      "roundsInfo": "Number of rounds equals the number of members",
+      "round": "Rounds"
+    },
+    "rules": {
+      "title": "Rules",
+      "stake": "Stake",
+      "stakeRecommendation": "Recommended: 2x contribution",
+      "penalty": "Late Fee",
+      "payoutMethod": "Payout Method",
+      "auction": "Auction",
+      "auctionDesc": "Highest bidder receives payout",
+      "random": "Random",
+      "randomDesc": "Random selection",
+      "fixed": "Fixed Order",
+      "fixedDesc": "Order of joining"
+    },
+    "review": {
+      "title": "Review",
+      "circleName": "Circle Name",
+      "description": "Description",
+      "contribution": "Contribution",
+      "frequency": "Frequency",
+      "members": "Members",
+      "rounds": "Rounds",
+      "stake": "Stake",
+      "penalty": "Late Fee",
+      "payoutMethod": "Payout Method",
+      "schedule": "Expected Schedule",
+      "poolPerRound": "will be collected each round.",
+      "totalRounds": "Total {count} rounds will be completed.",
+      "terms": "I agree to the circle rules. Stake will be returned after circle completion.",
+      "creating": "Creating...",
+      "createCircle": "Create Circle"
+    },
+    "success": {
+      "title": "Circle Created!",
+      "circleName": "Circle Name",
+      "circleId": "Circle ID",
+      "contractAddress": "Contract Address",
+      "inviteLink": "Invite Link"
+    }
+  },
+  "circles": {
+    "title": "My Circles",
+    "subtitle": "Manage your circles",
+    "connectWallet": "Please connect your wallet",
+    "connectWalletDesc": "Connect your wallet to view your circles.",
+    "empty": {
+      "title": "No Circles Yet",
+      "description": "Create a new circle or join an existing one to start saving together.",
+      "createCircle": "Create Circle",
+      "exploreCircles": "Find Circles"
+    },
+    "stats": {
+      "participating": "Participating",
+      "circles": " circles",
+      "active": " active",
+      "totalContributed": "Total Contributed",
+      "payoutsReceived": "Payouts Received",
+      "times": " times",
+      "activeCircles": "Active Circles"
+    },
+    "upcomingPayments": {
+      "title": "Upcoming Payments",
+      "noPayments": "No upcoming payments"
+    },
+    "myCirclesList": "My Circles"
+  },
+  "explore": {
+    "title": "Find Circles",
+    "subtitle": "Join a new circle or create your own",
+    "createCircle": "Create Circle",
+    "totalCircles": "Total {count} circles",
+    "noResults": {
+      "title": "No Results",
+      "description": "No circles match your filters. Try different filters or create a new circle.",
+      "resetFilters": "Reset Filters",
+      "createNew": "Create New Circle"
+    },
+    "filters": {
+      "allStatus": "All Status",
+      "allFrequency": "All Frequency",
+      "forming": "Recruiting",
+      "active": "Active",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "sortNewest": "Sort: Newest",
+      "sortPopular": "Sort: Popular"
+    },
+    "placeholders": {
+      "status": "Status",
+      "frequency": "Frequency",
+      "sort": "Sort"
+    }
+  },
+  "join": {
+    "title": "Join Circle",
+    "error": "An error occurred",
+    "errorLoadingCircle": "Failed to load circle information.",
+    "notFound": "Circle not found",
+    "notFoundDesc": "The requested circle does not exist or has been deleted.",
+    "alreadyMember": "Already a Member",
+    "alreadyMemberDesc": "You are already a member of this circle.",
+    "viewCircle": "View Circle",
+    "fullCircle": "Recruitment Closed",
+    "fullCircleDesc": "This circle is already full.",
+    "browseOther": "Browse Other Circles",
+    "terms": {
+      "title": "Terms & Conditions",
+      "stake": "Stake",
+      "stakeDesc": "Deposit {amount} {symbol} as stake. Full refund upon normal completion.",
+      "penalty": "Penalty",
+      "penaltyDesc": "If you don't pay on time, {rate}% will be deducted from your stake.",
+      "schedule": "Payment Schedule",
+      "scheduleDesc": "You must pay contributions {frequency}. Please meet the deadline.",
+      "agree": "I have read and agree to the above terms."
+    },
+    "action": {
+      "connectWallet": "Connect Wallet",
+      "acceptTerms": "Please accept the terms first",
+      "joining": "Joining...",
+      "joinCircle": "Join Circle",
+      "totalRequired": "Total required: {amount} {symbol}"
+    },
+    "success": {
+      "title": "Successfully Joined!",
+      "welcome": "Successfully joined {name}!",
+      "viewCircle": "View Circle",
+      "viewTransaction": "View Transaction",
+      "goToDashboard": "Go to Dashboard"
+    },
+    "members": {
+      "title": "Members",
+      "participating": "{count} participating",
+      "empty": "No participants yet. Be the first to join!",
+      "more": "more"
+    }
+  },
+  "circleDetail": {
+    "round": "Round {current}/{total}",
+    "nextPayment": "Next Payment",
+    "daysLeft": "{days} days left",
+    "members": "Members",
+    "paymentHistory": "Payment History",
+    "noPayments": "No payments yet",
+    "contribute": "Make Contribution",
+    "contributing": "Contributing...",
+    "yourTurn": "It's your turn to receive!",
+    "waiting": "Waiting for your turn",
+    "tabs": {
+      "overview": "Overview",
+      "members": "Members",
+      "schedule": "Schedule",
+      "history": "History"
+    },
+    "header": {
+      "host": "Host:",
+      "participants": "Participants",
+      "contribution": "Contribution",
+      "frequency": "Frequency",
+      "stake": "Stake",
+      "startCircle": "Start Circle",
+      "waitingForCreator": "Waiting for Creator"
+    },
+    "overview": {
+      "currentRound": "Round {round} in Progress",
+      "contributionProgress": "Contribution Progress",
+      "peopleComplete": "{count}/{total} completed",
+      "deadline": "Deadline:",
+      "expectedPayout": "Expected Payout:",
+      "payContribution": "Pay {amount} VERY",
+      "roundPaymentComplete": "This round's payment complete",
+      "currentRoundRecipient": "This round's recipient"
+    },
+    "membersTab": {
+      "participantStatus": "Participant Status",
+      "paid": "Paid",
+      "pending": "Awaiting Payment",
+      "overdue": "Overdue",
+      "payoutComplete": "Payout Complete",
+      "noParticipants": "No participants yet"
+    },
+    "historyTab": {
+      "transactionHistory": "Transaction History",
+      "contribution": "Contribution",
+      "payout": "Payout",
+      "penalty": "Penalty",
+      "view": "View",
+      "noTransactions": "No transaction history yet"
+    },
+    "auction": {
+      "title": "Bid Auction",
+      "timeRemaining": "Time Remaining",
+      "ended": "Ended",
+      "calculating": "Calculating...",
+      "notStarted": "Not started yet",
+      "bidAmount": "Bid Amount (%)",
+      "bid": "Bid",
+      "bidHint": "Enter the percentage to deduct from payout. Higher bids get priority.",
+      "completePaymentFirst": "Please complete your contribution first to participate in bidding",
+      "joinCircleFirst": "Please join the circle first to participate in bidding",
+      "currentBids": "Current Bids",
+      "noBids": "No bids yet",
+      "daysHours": "{days}d {hours}h",
+      "hoursMinutes": "{hours}h {minutes}m",
+      "minutesSeconds": "{minutes}m {seconds}s",
+      "placingBid": "Placing bid...",
+      "bidPlaced": "Bid Placed!",
+      "bidSuccess": "Successfully placed {amount}% bid",
+      "bidFailed": "Bid Failed"
+    },
+    "schedule": {
+      "title": "Payout Schedule",
+      "round": "Round {round}",
+      "complete": "(Complete)",
+      "inProgress": "(In Progress)",
+      "upcoming": "(Upcoming)",
+      "deadlineDate": "{date} deadline",
+      "recipient": "Recipient: ",
+      "undecided": "TBD",
+      "futureRounds": "{count} rounds remaining"
+    },
+    "modal": {
+      "contribute": "Make Contribution",
+      "roundContribution": "Contributing for Round {round}",
+      "contributionAmount": "Contribution Amount",
+      "warningNoRefund": "Contributions cannot be refunded. Please verify the amount before continuing.",
+      "processing": "Processing transaction...",
+      "pleaseWait": "Please wait a moment",
+      "success": "Contribution Complete!",
+      "successMessage": "{amount} VERY has been successfully contributed",
+      "viewTransaction": "View Transaction →",
+      "failed": "Contribution Failed",
+      "payVery": "Pay {amount} VERY"
+    },
+    "notFound": {
+      "title": "Circle Not Found",
+      "description": "The requested circle does not exist or has been deleted.",
+      "backToCircles": "Back to Circles"
+    }
+  },
+  "status": {
+    "circle": {
+      "forming": "Recruiting",
+      "active": "Active",
+      "completed": "Completed"
+    },
+    "contribution": {
+      "paid": "Paid",
+      "unpaid": "Unpaid",
+      "overdue": "Overdue"
+    }
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "subtitle": "Top contributors in the Moigye community",
+    "tabs": {
+      "circles": "Top Circles",
+      "members": "Top Members"
+    },
+    "circles": {
+      "title": "Top Contributing Circles",
+      "subtitle": "Circles ranked by total contributions",
+      "rank": "Rank",
+      "name": "Circle Name",
+      "totalContributed": "Total Contributed",
+      "members": "Members",
+      "progress": "Progress",
+      "empty": "No circles found"
+    },
+    "members": {
+      "title": "Top Contributing Members",
+      "subtitle": "Members ranked by total investments",
+      "rank": "Rank",
+      "address": "Member",
+      "totalContributed": "Total Contributed",
+      "contributions": "Contributions",
+      "circle": "Circle",
+      "empty": "No members found"
+    }
+  },
+  "demo": {
+    "create": {
+      "name": "Seoul Tech Savings Circle",
+      "description": "A trusted savings group for tech professionals in Seoul. Members contribute monthly and take turns receiving the pooled funds through a fair auction system."
+    },
+    "subgraph": {
+      "name": "Moigye Circles",
+      "description": "Indexes all Moigye savings circle events including creation, contributions, and payouts"
+    }
+  },
+  "errors": {
+    "userRejected": "Transaction was cancelled by user",
+    "insufficientFunds": "Insufficient balance",
+    "gasExceeded": "Gas limit exceeded",
+    "alreadyMember": "Already a member of this circle",
+    "notMember": "Not a member of this circle",
+    "insufficientStake": "Insufficient stake",
+    "insufficientContribution": "Insufficient contribution",
+    "circleNotForming": "Circle is not recruiting",
+    "circleNotActive": "Circle is not active",
+    "maxMembersReached": "Maximum members reached",
+    "alreadyContributed": "Already contributed this round",
+    "roundDeadlinePassed": "Payment deadline has passed",
+    "roundNotEnded": "Round has not ended yet",
+    "alreadyReceivedPayout": "Already received payout",
+    "notEligibleForPayout": "Not eligible for payout",
+    "bidTooLow": "Bid amount is too low",
+    "invalidConfig": "Invalid configuration",
+    "networkError": "Network connection error",
+    "timeout": "Transaction timed out",
+    "walletNotConnected": "Wallet is not connected",
+    "contractNotLoaded": "Could not load contract",
+    "abiNotLoaded": "Could not load contract ABI",
+    "clientNotReady": "Network client not ready. Please wait and try again.",
+    "transactionFailed": "Transaction failed on-chain. Please try again.",
+    "default": "An error occurred while processing the transaction"
+  }
+}
