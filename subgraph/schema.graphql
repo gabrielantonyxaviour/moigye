@@ -1,0 +1,66 @@
+type Circle @entity {
+  id: ID! # circleId from contract
+  address: Bytes!
+  creator: Bytes!
+  name: String!
+  contributionAmount: BigInt!
+  frequency: BigInt!
+  totalRounds: Int!
+  currentRound: Int!
+  stakeRequired: BigInt!
+  penaltyRate: Int!
+  payoutMethod: Int! # 0=AUCTION, 1=RANDOM, 2=FIXED_ORDER
+  status: Int! # 0=FORMING, 1=ACTIVE, 2=COMPLETED
+  memberCount: Int!
+  totalContributed: BigInt!
+  members: [Member!]! @derivedFrom(field: "circle")
+  rounds: [Round!]! @derivedFrom(field: "circle")
+  createdAt: BigInt!
+  createdAtBlock: BigInt!
+}
+
+type Member @entity {
+  id: ID! # circle.address + member.address
+  circle: Circle!
+  address: Bytes!
+  stakeDeposited: BigInt!
+  hasReceivedPayout: Boolean!
+  contributionCount: Int!
+  totalContributed: BigInt!
+  joinedAt: BigInt!
+  contributions: [Contribution!]! @derivedFrom(field: "member")
+}
+
+type Round @entity {
+  id: ID! # circle.address + roundNumber
+  circle: Circle!
+  roundNumber: Int!
+  startTime: BigInt!
+  deadline: BigInt!
+  totalContributed: BigInt!
+  contributionCount: Int!
+  winner: Bytes
+  winnerAmount: BigInt
+  status: Int! # 0=PENDING, 1=ACTIVE, 2=COMPLETED
+  contributions: [Contribution!]! @derivedFrom(field: "round")
+  bids: [Bid!]! @derivedFrom(field: "round")
+}
+
+type Contribution @entity {
+  id: ID! # circle.address + round + member
+  circle: Circle!
+  round: Round!
+  member: Member!
+  amount: BigInt!
+  timestamp: BigInt!
+  txHash: Bytes!
+}
+
+type Bid @entity {
+  id: ID! # circle.address + round + bidder + timestamp
+  circle: Circle!
+  round: Round!
+  bidder: Bytes!
+  amount: BigInt!
+  timestamp: BigInt!
+}
